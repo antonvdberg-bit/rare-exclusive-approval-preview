@@ -83,3 +83,49 @@ footer{background:#06131d;color:#81909a;padding:30px 7vw;display:flex;justify-co
   .cards,.asset-grid,.journey{grid-template-columns:1fr}
   footer{flex-direction:column}
 }
+.nav-actions{display:flex;align-items:center;gap:10px}
+.nav-review{color:#d7bd88;text-decoration:none;padding:10px 12px;font-size:10px;letter-spacing:.1em;text-transform:uppercase}
+.review-ribbon{position:fixed;left:50%;transform:translateX(-50%);top:78px;z-index:19;background:var(--gold);color:#08141d;padding:7px 14px;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;box-shadow:0 2px 10px rgba(0,0,0,.15);white-space:nowrap}
+.brand-link{text-decoration:none;color:inherit}
+.static-nav{position:relative;background:#06131d}
+.footer-links{display:flex;gap:14px;flex-wrap:wrap}
+footer a{color:#b7c0c5;text-decoration:none}
+footer a:hover,.nav-review:hover{color:white}
+
+.approval-page{background:var(--cream)}
+.approval-shell,.legal-shell{max-width:1180px;margin:0 auto;padding:74px 7vw 90px}
+.approval-title{color:var(--ink);max-width:900px}
+.approval-intro{max-width:850px;font-size:17px;line-height:1.75;color:#59656c;margin-bottom:44px}
+.approval-meta{display:grid;grid-template-columns:1fr 220px;gap:18px;margin-bottom:28px}
+.approval-form{background:#fff;padding:28px;box-shadow:0 12px 40px rgba(8,20,29,.08)}
+.approval-item{display:grid;grid-template-columns:56px minmax(0,1fr) 170px;gap:20px;align-items:start;padding:26px 0;border-top:1px solid #e3dfd6}
+.approval-item:first-of-type{border-top:0}
+.approval-number{font-family:"Cormorant Garamond",serif;color:var(--gold);font-size:30px}
+.approval-question h2{font-size:30px;margin:0 0 8px}
+.approval-question p{margin:0;color:#667178;line-height:1.6}
+.approval-choice{display:flex;gap:14px;padding-top:8px}
+.approval-choice label{display:flex;gap:6px;align-items:center}
+.approval-choice input{width:auto;margin:0}
+.approval-notes{grid-column:2/4}
+.approval-overall{display:block;margin-top:24px;padding-top:24px;border-top:1px solid #e3dfd6}
+.approval-actions{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.approval-copy{background:#0b1b28;color:white}
+.legal-shell{min-height:70vh}
+.legal-shell h2{font-size:32px;margin-top:36px}
+.legal-shell p{max-width:850px;line-height:1.8;color:#59656c}
+
+@media (max-width:900px){
+  .approval-item{grid-template-columns:46px 1fr}
+  .approval-choice{grid-column:2}
+  .approval-notes{grid-column:2}
+  .approval-meta{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  .review-ribbon{top:68px;font-size:8px;padding:6px 10px;max-width:92vw;overflow:hidden;text-overflow:ellipsis}
+  .nav-review{display:none}
+  .approval-shell,.legal-shell{padding:52px 6vw 70px}
+  .approval-form{padding:18px}
+  .approval-item{grid-template-columns:1fr}
+  .approval-number,.approval-choice,.approval-notes{grid-column:1}
+  .approval-question h2{font-size:26px}
+}

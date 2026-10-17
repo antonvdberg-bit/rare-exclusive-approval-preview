@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Rare & Exclusive — Design Approval</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="approval-page">
+<header class="nav static-nav">
+  <a class="brand brand-link" href="index.html">
+    <div class="monogram">R&E</div>
+    <div><div class="brand-name">RARE & EXCLUSIVE</div><div class="brand-tag">Design approval process</div></div>
+  </a>
+  <a class="nav-cta" href="index.html">View Preview</a>
+</header>
+
+<main class="approval-shell">
+  <p class="eyebrow">Design Language Approval</p>
+  <h1 class="approval-title">Approve the direction before we finish the product.</h1>
+  <p class="approval-intro">This is not final sign-off on the completed website. It is a controlled approval of the design and content baseline. While an item is under review, change it freely. Once marked YES, it becomes the agreed baseline; reopening it later is treated as a change.</p>
+
+  <form id="approval-form" class="approval-form">
+    <div class="approval-meta">
+      <label>Reviewer<input name="reviewer" value="Jan du Plessis" required></label>
+      <label>Date<input name="date" type="date" required></label>
+    </div>
+    <div id="approval-items"></div>
+    <label class="approval-overall">General comments / anything else to change<textarea name="general" rows="5" placeholder="Optional"></textarea></label>
+    <div class="approval-actions">
+      <button type="button" class="button button-primary" id="prepare-email">Prepare Email Response</button>
+      <button type="button" class="button approval-copy" id="copy-response">Copy Response</button>
+    </div>
+    <p class="form-note">Nothing is transmitted automatically. The buttons prepare or copy your response so you remain in control of what is sent.</p>
+  </form>
+</main>
+
+<footer>
+  <div>RARE & EXCLUSIVE</div>
+  <div>Review → Change → Approve → Lock → Move on</div>
+  <div><a href="index.html">Preview</a></div>
+</footer>
+<script src="approval.js"></script>
+</body>
+</html>
