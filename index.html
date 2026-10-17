@@ -6,12 +6,19 @@
   <title>Rare & Exclusive — Curated Assets. Extraordinary Opportunities.</title>
   <meta name="description" content="Rare & Exclusive is a private-client platform for exceptional property and rare assets, combining curation, discretion and relationship-led service." />
   <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="theme-color" content="#06131d" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rare & Exclusive — Curated Assets. Extraordinary Opportunities." />
+  <meta property="og:description" content="A private-client platform for exceptional property and rare assets." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header class="nav">
   <div class="brand">
     <div class="monogram">R&E</div>
@@ -24,10 +31,10 @@
 </header>
 
 <div class="review-ribbon">Design Language Approval Preview — Not Final / Not Public</div>
-<main>
+<main id="main-content">
   <section class="hero">
-    <video class="hero-video" autoplay muted loop playsinline preload="metadata">
-      <source src="assets/hero.mp4" type="video/mp4">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg" aria-hidden="true">
+      <source src="assets/hero-review.mp4" type="video/mp4">
     </video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
@@ -127,7 +134,7 @@
         <label>Full name<input name="name" type="text" autocomplete="name" placeholder="Your name" required></label>
         <label>Email<input name="email" type="email" autocomplete="email" placeholder="name@example.com" required></label>
         <label>What are you interested in?<select name="interest"><option>Exceptional property</option><option>Rare vehicle</option><option>Marine / lifestyle asset</option><option>Collectible / other</option><option>Private conversation</option></select></label>
-        <label>Message<textarea name="message" rows="4" placeholder="Tell us briefly what you are looking for." required></textarea></label>
+        <label>Message<textarea name="message" rows="4" maxlength="4000" placeholder="Tell us briefly what you are looking for." required></textarea></label>
         <label class="consent"><input name="consent" type="checkbox" required> <span>I consent to being contacted regarding this enquiry.</span></label>
         <button class="button button-primary" type="submit">Request Private Contact</button>
         <p class="form-note" id="form-status">Review preview only — no enquiry is transmitted until the approved production routing is connected.</p>

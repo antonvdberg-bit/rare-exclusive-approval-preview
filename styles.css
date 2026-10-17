@@ -129,3 +129,12 @@ footer a:hover,.nav-review:hover{color:white}
   .approval-number,.approval-choice,.approval-notes{grid-column:1}
   .approval-question h2{font-size:26px}
 }
+
+.skip-link{position:fixed;left:12px;top:-60px;z-index:50;background:#fff;color:#06131d;padding:10px 14px;text-decoration:none}
+.skip-link:focus{top:12px}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+button:disabled{opacity:.55;cursor:not-allowed}
+.not-found{min-height:100vh;background:#06131d;color:white;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:8vw}
+.not-found h1{max-width:760px}
+.not-found p{max-width:560px;color:#b7c0c5;line-height:1.7}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
