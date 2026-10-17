@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const v=document.querySelector('.hero-video');if(v){v.play().catch(()=>{});}});
