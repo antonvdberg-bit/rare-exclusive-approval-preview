@@ -34,7 +34,8 @@
 <main id="main-content">
   <section class="hero">
     <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg" aria-hidden="true">
-      <source src="assets/hero-review.mp4" type="video/mp4">
+      <source src="assets/hero-mobile.mp4" type="video/mp4" media="(max-width: 700px)">
+      <source src="assets/hero-desktop.mp4" type="video/mp4">
     </video>
     <div class="hero-overlay"></div>
     <div class="hero-content">
@@ -117,8 +118,10 @@
         <h2>Our first live Rare & Exclusive collection.</h2>
         <p>This area is ready to receive the first approved project once final imagery, commercial information and release permissions are available.</p>
       </div>
-      <div class="placeholder-frame">
-        <span>Premium project media / imagery placeholder</span>
+      <div class="featured-media" aria-label="Supplied Rare & Exclusive visual reference">
+        <img class="featured-media-main" src="assets/PB-14-web.jpg" alt="Sea-facing luxury terrace reference image">
+        <img class="featured-media-secondary" src="assets/PB-11-web.jpg" alt="Luxury interior reference image">
+        <div class="media-note">Supplied visual reference — final featured opportunity content remains subject to approval.</div>
       </div>
     </div>
   </section>
