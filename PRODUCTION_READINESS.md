@@ -1,43 +1,53 @@
 # Rare & Exclusive — Production Readiness
 
 ## Current state
-The client-facing design shell and approval preview are substantially built.
+The client-facing design shell, approval preview and production enquiry adapter are substantially built.
 
 ## Completed / prepared
-- Premium visual language and responsive page shell
+- Premium responsive page shell
+- Original-source Palm Bay desktop and mobile hero media
 - Public positioning and core copy
-- Hero treatment
+- Jan-approved cinematic hero treatment
+- Updated headline: “Rare by Nature & Exclusive by Design.”
 - Principles and conduct section
 - How We Work journey
-- Asset-class positioning
-- Featured-opportunity component shell
+- Property-first category positioning with furniture as the proposed next category
+- Featured-opportunity treatment using supplied high-resolution material
 - Private-access enquiry UI
+- Server-side enquiry adapter with validation and webhook routing
+- Review-mode / production-mode form behaviour
+- Honeypot bot field and consent requirement
+- Health endpoint
 - Design-approval workflow
 - Change-control record
 - Draft privacy and website terms pages
 - No-index review deployment
 - Git source control and published review environment
+- Security-header configuration for Vercel
+- Branded favicon and 404 page
 
-## Waiting on approval / source material
-- Final logo approval
+## Waiting on client / commercial inputs
 - Final design-language approval
-- Final public copy approval
-- Original/high-resolution media
-- First featured-opportunity approved content
+- Confirmation of proposed transactional-partner public wording
+- Confirmation of property/furniture category wording
 - Final operating entity and legal details
-- Final enquiry destination / workflow
+- Final enquiry destination / CRM workflow
 - Production domain decision
+- Final privacy / terms legal particulars
+- Analytics / consent preference
+- First featured-opportunity approved commercial content
 
-## Production engineering still required
-- Connect enquiry form to approved routing endpoint / CRM workflow
-- Add production analytics after consent model is confirmed
-- Finalise SEO + social cards for public release
-- Replace review no-index rules with production indexing controls
-- Media optimisation, responsive crops and accessibility text
+## Production engineering remaining
+- Configure RNE_ENQUIRY_WEBHOOK_URL through Infisical-backed deployment secrets
+- Configure optional webhook token through Infisical-backed deployment secrets
+- Connect the approved downstream CorpFlowAI / ERPNext intake
+- Enable production analytics after consent model is confirmed
+- Finalise public SEO/social cards
+- Replace review no-index rules only when public launch is authorised
 - Cross-browser/mobile QA
 - Performance audit
 - Production deployment + domain + TLS verification
 - Final release checklist and rollback point
 
 ## Change resilience
-The remaining build is intentionally modular. Jan's review changes can be absorbed by editing content, media and component configuration without rebuilding the page structure unless the approved design direction changes materially.
+Content, branding, media and category changes are isolated from the page structure. Jan’s remaining review changes should be amendments rather than rebuilds unless the approved architecture changes materially.

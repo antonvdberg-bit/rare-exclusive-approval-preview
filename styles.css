@@ -146,3 +146,34 @@ button:disabled{opacity:.55;cursor:not-allowed}
 .media-note{position:absolute;left:12px;bottom:12px;background:rgba(6,19,29,.78);color:#d5dce0;padding:8px 10px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;max-width:72%;backdrop-filter:blur(5px)}
 @media (max-width:900px){.featured-media{grid-template-columns:1fr 1fr}.featured-media-main,.featured-media-secondary{min-height:260px}}
 @media (max-width:600px){.featured-media{grid-template-columns:1fr}.featured-media-secondary{display:none}.featured-media-main{min-height:340px}.media-note{max-width:90%}}
+
+/* 2026-10-19: approved brand-direction refinement; overall design language remains under review */
+:root{
+  --ink:#171713;
+  --ink2:#29261f;
+  --gold:#b9955c;
+  --cream:#efe7da;
+  --paper:#f8f5ef;
+  --text:#302f2b;
+  --muted:#7b786f;
+}
+.nav{background:rgba(23,23,19,.94);border-bottom-color:rgba(185,149,92,.18)}
+.monogram{font-size:34px;letter-spacing:-.04em;color:#c8aa73}
+.brand-name{font-family:"Cormorant Garamond",serif;font-size:13px;letter-spacing:.18em;font-weight:500}
+.brand-tag{color:#cfbfaa;opacity:.82;letter-spacing:.16em}
+.hero{background:#171713}
+.hero-overlay{background:linear-gradient(90deg,rgba(20,18,15,.80) 0%,rgba(20,18,15,.44) 52%,rgba(20,18,15,.19) 100%),linear-gradient(0deg,rgba(20,18,15,.58) 0%,transparent 48%)}
+.button-primary{background:#b9955c;color:#161511}
+.collection{background:#efe7da}
+.asset-grid{grid-template-columns:1.2fr 1fr 1fr}
+.asset-tile{background:#fbf8f2}
+.asset-tile-muted{background:rgba(255,255,255,.38);border:1px solid rgba(89,73,48,.10)}
+.asset-tile-muted h3,.asset-tile-muted p{opacity:.72}
+.dark{background:#171713}
+.card{background:#171713}
+footer{background:#12120f;color:#9f998f}
+.review-ribbon{background:#b9955c}
+@media (max-width:900px){.asset-grid{grid-template-columns:1fr 1fr}.asset-tile-muted{grid-column:1/-1}}
+@media (max-width:600px){.asset-grid{grid-template-columns:1fr}.asset-tile-muted{grid-column:auto}}
+
+.honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
