@@ -12,7 +12,7 @@ function clean(value, max) {
 }
 
 function validEmail(value) {
-  return /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(value);
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
 }
 
 module.exports = async function handler(req, res) {
