@@ -1,0 +1,8 @@
+source_media/
+.git-desktopini-backup/
+desktop.ini
+**/desktop.ini
+assets/*-master.mp4
+assets/*-master.jpg
+assets/palm-bay-mobile.mp4
+.env.local
