@@ -14,10 +14,11 @@
 - [x] Source control and approval preview
 
 ## Gate B — production integration
-- [ ] Create protected Vercel Git project
+- [x] Create Vercel project (`rare-exclusive`) and deploy staging build
 - [ ] Inject RNE_ENQUIRY_WEBHOOK_URL through Infisical
 - [ ] Inject RNE_ENQUIRY_WEBHOOK_TOKEN if downstream endpoint requires it
-- [ ] Confirm /api/health reports enquiryConfigured=true
+- [x] Confirm /api/health responds successfully
+- [ ] Confirm /api/health reports enquiryConfigured=true after routing secret injection
 - [ ] Send controlled test enquiry
 - [ ] Confirm downstream CorpFlowAI / ERPNext lead creation
 - [ ] Confirm no secrets appear in repository or browser source
@@ -65,9 +66,10 @@
 - [ ] Record launch date and release SHA
 
 ## Current blockers
-1. Vercel project creation permission / deployment access.
-2. Downstream enquiry destination and Infisical secret injection.
-3. Mailbox activation for jan@rareandexclusive.com.
-4. Final legal and release approval.
+1. Downstream enquiry destination and Infisical secret injection.
+2. Mailbox activation for jan@rareandexclusive.com.
+3. Final legal and release approval.
+
+Current staging deployment is live at the Vercel project alias and remains `noindex`. Git auto-connection still needs repository authorization in Vercel, but manual/CLI deployment is operational.
 
 Analytics are intentionally OFF for the first release, so analytics/consent does not block launch. Advertising/remarketing tracking can be added later with the appropriate consent layer.
