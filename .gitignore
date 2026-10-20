@@ -2,3 +2,7 @@ source_media/
 assets/*-master.mp4
 assets/*-master.jpg
 assets/palm-bay-mobile.mp4
+
+desktop.ini
+**/desktop.ini
+.git-desktopini-backup/
