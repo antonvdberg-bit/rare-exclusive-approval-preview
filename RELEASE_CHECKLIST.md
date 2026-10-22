@@ -75,3 +75,14 @@
 Current staging deployment is live at the Vercel project alias and remains `noindex`. Git auto-connection still needs repository authorization in Vercel, but manual/CLI deployment is operational.
 
 Analytics are intentionally OFF for the first release, so analytics/consent does not block launch. Advertising/remarketing tracking can be added later with the appropriate consent layer.
+
+
+## 22 October 2026 — Enquiry integration verification
+- [x] Rare & Exclusive production environment contains RNE_ENQUIRY_WEBHOOK_URL and RNE_ENQUIRY_WEBHOOK_TOKEN.
+- [x] CorpFlowAI production contains RNE_INTAKE_SHARED_SECRET.
+- [x] /api/health verified with enquiryConfigured=true.
+- [x] Controlled Rare & Exclusive enquiry submitted successfully through /api/enquiry.
+- [x] CorpFlowAI Lead captured under tenant rare-exclusive (lead id cmvj7gefk0000l7086tsw5mxi).
+- [x] ERPNext bridge completed with state=synced.
+- [x] ERPNext Lead created/updated as CRM-LEAD-2026-00011.
+- [x] Intake remained at Lead/new stage; no Opportunity/Customer promotion is triggered by initial enquiry.
