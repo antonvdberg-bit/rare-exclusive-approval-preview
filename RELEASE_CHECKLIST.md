@@ -86,3 +86,13 @@ Analytics are intentionally OFF for the first release, so analytics/consent does
 - [x] ERPNext bridge completed with state=synced.
 - [x] ERPNext Lead created/updated as CRM-LEAD-2026-00011.
 - [x] Intake remained at Lead/new stage; no Opportunity/Customer promotion is triggered by initial enquiry.
+
+## Commercial hold — 22 October 2026
+- [ ] Payment receipt verified in authoritative ERPNext commercial record (do not assume payment).
+- [ ] Explicit Anton release authorization obtained after payment verification.
+- [ ] Only then proceed with public domain cutover, removing noindex, or public launch.
+- [x] Pre-payment hold recorded: no DNS modification or public launch authorized.
+- [ ] Browser/device, accessibility, performance and final content QA pending unless separately evidenced.
+
+Pre-release review URLs are public/unindexed and are not authenticated private previews. Do not describe them as access-controlled.
+
