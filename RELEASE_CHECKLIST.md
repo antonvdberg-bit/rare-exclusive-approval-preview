@@ -16,6 +16,8 @@
 ## Gate B — production integration
 - [x] Create Vercel project (`rare-exclusive`) and deploy staging build
 - [ ] Inject RNE_ENQUIRY_WEBHOOK_URL through Infisical
+- [x] CorpFlowAI receiver route deployed: POST https://core.corpflowai.com/api/intake/rare-exclusive
+- [x] CorpFlowAI -> ERPNext Lead adapter merged and production deployed (no Opportunity/Customer at intake)
 - [ ] Inject RNE_ENQUIRY_WEBHOOK_TOKEN if downstream endpoint requires it
 - [x] Confirm /api/health responds successfully
 - [ ] Confirm /api/health reports enquiryConfigured=true after routing secret injection
@@ -66,7 +68,7 @@
 - [ ] Record launch date and release SHA
 
 ## Current blockers
-1. Downstream enquiry destination and Infisical secret injection.
+1. Infisical shared-secret injection and R&E sender configuration. CorpFlowAI intake destination is deployed and verified.
 2. Mailbox activation for jan@rareandexclusive.com.
 3. Final legal and release approval.
 
