@@ -114,3 +114,15 @@ Commercial interpretation approved by CorpFlowAI operator on 25 October 2026:
 - [ ] Public DNS cutover, removal of noindex or public go-live require explicit operator release authorization after commercial and operational gates are reviewed.
 
 This section supersedes only the absolute pre-payment deployment hold dated 22 October. It does not assert payment, completed QA, public-release authorization, or any new scope beyond the accepted quotation. Existing public/unindexed review pages are not authenticated private previews.
+
+## 26 October 2026 - Additional pre-launch technical checks
+- [x] Vercel production deployment listing showed latest rare-exclusive deployment READY (no new public release performed).
+- [x] Authenticated GET /api/health returned ok=true and enquiryConfigured=true.
+- [x] node --check passed for script.js, site-config.js, approval.js, api/enquiry.js and api/health.js.
+- [x] Local file reference scan across HTML reported zero missing referenced asset/style/script/legal/approval files.
+- [x] Review-indexing restrictions remain in site config, robots.txt and Vercel X-Robots-Tag policy.
+- [ ] Cross-device visual QA, assistive-technology/accessibility assessment and performance audit require separate browser-based evidence.
+- [ ] Confirm ERPNext quotation SAL-QTN-2026-00010 was updated to reflect Jan's written approval and agreed conditional timing via authenticated ERPNext read-back (GitHub comment is not a record mutation).
+- [ ] Public domain cutover, release-indexing changes and public launch require separate explicit authorization.
+
+No additional synthetic CRM enquiry was submitted during this check, and no DNS, billing, or third-party mailbox changes were made.
