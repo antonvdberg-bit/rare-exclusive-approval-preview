@@ -148,3 +148,13 @@ No client-domain change, no publication, no invoice creation and no release-inde
 - [ ] Comprehensive cross-browser/mobile visuals, network performance and accessibility checks still pending.
 - [ ] Existing ERPNext quotation `SAL-QTN-2026-00010`: authenticated acceptance/status update and evidence attachment still pending via controlled business executor, no duplicate quotation or invoice allowed.
 - [ ] Jan-controlled Spaceship DNS and mailbox setup, legal/content approvals, and explicit public cutover authorization remain external release blockers.
+
+## 26 October 2026 - Commercial acceptance evidence closed
+- [x] ERPNext quotation SAL-QTN-2026-00010 authenticated read-back by Cursor Web API as integrations@corpflowai.com; submitted/Open, grand total MUR 45000, customer BESPOKE HOMES LTD.
+- [x] Existing ERPNext comments li3l6vjfqh, k8etrc4itr, jle2nhqfqr and iv51vip1mb contain the 24 October Jan acceptance thread reference. Existing duplication retained; no further comment/write needed. Evidence: CorpFlowAI command center issue #1493 comment 6406489908.
+- [x] Operator accepts completion of acceptance-evidence task and permanent Cursor Web ERPNext API route. Evidence: issue #1493 comment 6406605775.
+- [x] No expanded integration permissions, local Playwright, desktop ERPNext session or new MCP connection required for this task.
+- [ ] ERPNext quotation remains formally Open; do not claim status=Accepted. No payment receipt verified; no invoice authorized by evidence-only closure.
+- [ ] Browser QA, mailbox, domain configuration, legal/content sign-off and final public-release gate remain outstanding.
+
+Previous checklist statements describing acceptance documentation as not yet evidenced are superseded by this dated read-back. No DNS cutover or public release is authorized.
