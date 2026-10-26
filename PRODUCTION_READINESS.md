@@ -59,3 +59,17 @@ The first public-release build is substantially complete. Remaining work is prod
 
 ## Release rule
 Preview/staging deployment is not public-launch authorisation. rareandexclusive.com must not be pointed to the production deployment until final release approval.
+
+## Verified operating state - 26 October 2026 (supersedes stale engineering to-do list above)
+
+- The CorpFlowAI-owned `rare-exclusive` Vercel project has a READY production-targeted deployment, but the client domain has NOT been cut over. The hosted review deployments are public/unindexed, not authenticated private surfaces.
+- Production environment variable names `RNE_ENQUIRY_WEBHOOK_URL`, `RNE_ENQUIRY_WEBHOOK_TOKEN`, and CorpFlowAI `RNE_INTAKE_SHARED_SECRET` were previously verified in their respective Vercel projects; the token value must remain secret and Infisical-governed.
+- Authenticated `/api/health` returned `enquiryConfigured:true` on 22 and 26 October.
+- Controlled synthetic `/api/enquiry` returned HTTP 200; GitHub release verification records CorpFlowAI Lead `cmvj7gefk0000l7086tsw5mxi`, ERPNext `CRM-LEAD-2026-00011`, bridge `synced`, with lead-only intake behavior. Do not mistake a synthetic success for complete launch QA.
+- JavaScript syntax and local reference checks passed; desktop Chrome headless screenshot generation succeeded, but full cross-browser visual, accessibility, security and performance acceptance are NOT evidenced.
+- Jan approved the issued MUR 45,000 website quotation by email 24 October. CorpFlowAI operator accepted Jan's proposal for payment when commissions arrive (anticipated one or two weeks, not a fixed due date). No payment receipt is confirmed. ERPNext quotation `SAL-QTN-2026-00010` acceptance/status reconciliation remains pending; no second quotation or invoice should be generated.
+- The controlled environment and final QA may progress before cash receipt. Public site activation, DNS cutover, removal of noindex restrictions, and release declaration require separate explicit operator authorization and legal/content/technical gates.
+- Domain remains client-owned at Spaceship; exact DNS and email MX/TXT configuration must be captured and approved before any modification. Mailbox activation, sending/receiving and SPF/DKIM/DMARC tests are still pending.
+- Next evidence required: authenticated ERPNext read-back and appropriately authorised commercial update via #1390; mobile/desktop visual and accessibility/performance QA; client DNS permissions and mailbox readiness; final content/legal approval; approved rollback and public cutover plan.
+
+Consult `RELEASE_CHECKLIST.md` for dated evidence and the authoritative release gates. This update is documentation only and does not declare production public launch.
