@@ -137,3 +137,14 @@ No additional synthetic CRM enquiry was submitted during this check, and no DNS,
 - [ ] Confirm Jan's mailbox send/receive and preservation of MX/SPF/DKIM/DMARC prior to public domain release.
 
 No client-domain change, no publication, no invoice creation and no release-indexing change are authorized by this QA record.
+
+## 26 October 2026 - Favicon repair and controlled deployment
+- [x] QA found `assets/favicon.svg` tracked as six invalid bytes; repaired as valid branded SVG, committed `5bc4ec8`.
+- [x] Deployed repaired build with authenticated Vercel CLI to production target behind Vercel Authentication; deployment `rare-exclusive-9g6ct0vry-corpflowai.vercel.app` is READY. This did NOT connect Jan's domain or authorize public release.
+- [x] Authenticated health GET returned `ok:true` and `enquiryConfigured:true` on the new deployment.
+- [x] Authenticated favicon GET returned HTTP 200, `image/svg+xml`, and a valid SVG payload (282 bytes).
+- [x] Favicon response retains `X-Robots-Tag: noindex, nofollow, noarchive`.
+- [x] Static homepage QA found all four internal section anchors present and both image tags have alt attributes. This is a narrow markup check, not WCAG compliance.
+- [ ] Comprehensive cross-browser/mobile visuals, network performance and accessibility checks still pending.
+- [ ] Existing ERPNext quotation `SAL-QTN-2026-00010`: authenticated acceptance/status update and evidence attachment still pending via controlled business executor, no duplicate quotation or invoice allowed.
+- [ ] Jan-controlled Spaceship DNS and mailbox setup, legal/content approvals, and explicit public cutover authorization remain external release blockers.
