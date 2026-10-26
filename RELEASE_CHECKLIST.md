@@ -158,3 +158,13 @@ No client-domain change, no publication, no invoice creation and no release-inde
 - [ ] Browser QA, mailbox, domain configuration, legal/content sign-off and final public-release gate remain outstanding.
 
 Previous checklist statements describing acceptance documentation as not yet evidenced are superseded by this dated read-back. No DNS cutover or public release is authorized.
+
+## 26 October 2026 - Additional local Chrome viewport and form-structure checks
+- [x] Chrome headless local-file render generated screenshots at 390x844 and 1440x900 (respectively 341954 and 1255579 bytes). Both executions succeeded; screenshots alone do not establish acceptable visual layout or production network behavior.
+- [x] Static page source contains name, email, message and consent form fields.
+- [x] Stylesheet contains a prefers-reduced-motion media query; script also has explicit motion preference handling. This is source evidence, not tested assistive technology behavior.
+- [ ] Visually inspect rendered screenshots on actual mobile/desktop and evaluate layout, font loading, motion, keyboard navigation, form validation, and privacy/terms links in protected deployment.
+- [ ] Run reproducible performance and accessibility audits against approved protected deployment; retain screenshots/report and investigate findings before signing Gate E.
+- [ ] Final content/legal approval, client mailbox, Spaceship domain access and explicit operator approval still gate public launch.
+
+No public DNS, release indexing, customer record or mailbox change was made by these local QA checks.
