@@ -1,8 +1,8 @@
 const ITEMS = [
-  ["Logo treatment","Can you live with the current R&E logo / monogram treatment?"],
+  ["Logo treatment","Do you approve the current R&E logo / monogram treatment?"],
   ["Overall design language","Dark navy, gold, white and a restrained luxury editorial style."],
   ["Hero treatment","Large cinematic media with restrained copy and premium spacing."],
-  ["Main headline","“Exceptional assets deserve a different kind of relationship.”"],
+  ["Main headline","“Rare by Nature & Exclusive by Design.”"],
   ["What Rare & Exclusive is","The current public explanation of the R&E proposition."],
   ["Principles / conduct","Curated, private, relationship-led and quality-focused."],
   ["How We Work","Understand → Curate → Engage → Progress → Remain."],
