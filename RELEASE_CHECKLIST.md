@@ -126,3 +126,14 @@ This section supersedes only the absolute pre-payment deployment hold dated 22 O
 - [ ] Public domain cutover, release-indexing changes and public launch require separate explicit authorization.
 
 No additional synthetic CRM enquiry was submitted during this check, and no DNS, billing, or third-party mailbox changes were made.
+
+## 26 October 2026 - Additional operator QA and domain readiness
+- [x] Local Git main remains current with origin/main; .infisical.yaml stays untracked and must not be committed.
+- [x] Chrome headless local desktop screenshot generated at 1440x900; this confirms render execution only, not visual acceptance or cross-device QA.
+- [x] Vercel CLI team-domain listing checked: rareandexclusive.com not among registered CorpFlowAI team domains. This does not establish external DNS state or project-domain attachment.
+- [ ] Obtain approved domain configuration/Spaceship DNS access and query exact Vercel project-domain settings before any controlled cutover.
+- [ ] Complete authenticated visual mobile, desktop browser, performance, accessibility and form testing; do not mark complete based on a screenshot file alone.
+- [ ] Reconcile issued quotation SAL-QTN-2026-00010 in ERPNext via authorized #1390 business-action workflow; acceptance was recorded in #1493 but an ERPNext mutation is not verified.
+- [ ] Confirm Jan's mailbox send/receive and preservation of MX/SPF/DKIM/DMARC prior to public domain release.
+
+No client-domain change, no publication, no invoice creation and no release-indexing change are authorized by this QA record.
