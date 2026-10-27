@@ -16,3 +16,9 @@ review-videos/clip*.mp4
 review-videos/joined.mp4
 review-videos/parts.txt
 assets/jan-reference.jpg
+
+refine_media.py
+inspect_edits.py
+review-contact-sheet.jpg
+review-videos/*-revised.mp4
+review-videos/revised-parts.txt
