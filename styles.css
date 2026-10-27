@@ -192,3 +192,7 @@ footer{background:#12120f;color:#9f998f}
 /* Jan's editorial reference: warm introduction */
 .intro{background:#f8f5ee}
 .intro h2{font-size:clamp(48px,5.4vw,78px);letter-spacing:-.025em}
+
+/* Property-first visual while Jan reviews the proposed replacement hero video. */
+.hero{background:#1b2428 url('assets/PB-14-web.jpg') center center/cover no-repeat}
+.hero-video{display:none}
