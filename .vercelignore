@@ -6,3 +6,13 @@ assets/*-master.mp4
 assets/*-master.jpg
 assets/palm-bay-mobile.mp4
 .env.local
+.infisical.yaml
+CURSOR_LOCAL_ERPNEXT_PROMPT.md
+make_client_assets.py
+apply_approved_monogram.py
+finalize_client_videos.py
+client-video-review/
+review-videos/clip*.mp4
+review-videos/joined.mp4
+review-videos/parts.txt
+assets/jan-reference.jpg

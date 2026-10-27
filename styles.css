@@ -177,3 +177,18 @@ footer{background:#12120f;color:#9f998f}
 @media (max-width:600px){.asset-grid{grid-template-columns:1fr}.asset-tile-muted{grid-column:auto}}
 
 .honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+
+
+/* Jan-approved monogram-led homepage treatment, 27 Oct 2026 */
+.brand-monogram{width:52px;height:58px;object-fit:contain;flex:0 0 auto}
+.hero-content{width:100%;max-width:none;margin:0 auto;text-align:center;padding:100px 7vw 74px}
+.hero-monogram{width:clamp(160px,22vw,310px);height:auto;display:block;margin:0 auto 12px;filter:drop-shadow(0 3px 16px rgba(0,0,0,.12))}
+.hero-content h1{font-family:"Cormorant Garamond",serif;text-transform:uppercase;letter-spacing:.14em;font-size:clamp(20px,2.6vw,34px);line-height:1.25;font-weight:500;max-width:1000px;margin:6px auto 15px}
+.hero-content .lead{font-size:clamp(13px,1.2vw,16px);max-width:680px;margin:12px auto;line-height:1.7}
+.hero-actions{justify-content:center}
+.hero-overlay{background:linear-gradient(0deg,rgba(13,14,13,.67),rgba(14,15,14,.12) 52%,rgba(7,13,17,.33))}
+@media(max-width:600px){.brand-monogram{width:34px;height:42px}.hero-content{padding:100px 6vw 50px}.hero-monogram{width:190px}.hero-content h1{font-size:23px;letter-spacing:.085em}}
+
+/* Jan's editorial reference: warm introduction */
+.intro{background:#f8f5ee}
+.intro h2{font-size:clamp(48px,5.4vw,78px);letter-spacing:-.025em}
